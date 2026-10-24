@@ -1,0 +1,18 @@
+{
+  "name": "screen-monitor-signaling-server",
+  "version": "1.0.0",
+  "description": "Online WebRTC Signaling & Relay Server for Screen Monitor Client and Admin apps",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ws": "^8.17.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
